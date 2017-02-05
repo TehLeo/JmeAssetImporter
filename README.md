@@ -1,5 +1,5 @@
 # JmeAssetImporter
-A tool to automatically import assets from blender to jME
+A tool to automatically import assets from blender to jME, including copying modified textures.
 
 ### Asset import description file
 
