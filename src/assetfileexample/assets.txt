@@ -1,0 +1,23 @@
+global {
+    blendpath: [ "/path/to/blend/files" "/another/path"]
+    assetpath: "/workspace/jme project/assets"
+    out-path: /Models
+    out-texture-path: /Textures
+    copy-texture: true
+}
+flowers {
+    in-blend: blendfile.blend 
+    out-j3o: [ 
+               ["Blue Flower" "flower1.j3o" ] 
+               ["Pink Flower" "flower2.j3o"] 
+               ["Yellow Flower" "flower3.j3o"] 
+             ]
+}
+trees {
+    in-blend: blendfile2.blend 
+    out-j3o: [ 
+               ["Willow" "tree1.j3o" ]
+               ["Oak" "tree2.j3o"]
+             ]
+    filter: myfilter.ExampleImportFilter
+}
